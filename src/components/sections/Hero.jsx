@@ -93,7 +93,7 @@ const Hero = () => {
       </motion.div>
 
       {/* 5. CONTACT BUTTON (Fixed) */}
-      <div className="fixed bottom-10 right-10 z-50">
+      {/* <div className="fixed bottom-10 right-10 z-50">
         <motion.div 
           whileHover={{ scale: 1.1 }}
           className="bg-[#25D366] text-white px-6 py-3 rounded-full flex items-center gap-3 font-bold shadow-2xl cursor-pointer"
@@ -101,7 +101,7 @@ const Hero = () => {
           <div className="w-2 h-2 bg-white rounded-full animate-ping" />
           Contact us
         </motion.div>
-      </div>
+      </div> */}
     </section>
   );
 };
